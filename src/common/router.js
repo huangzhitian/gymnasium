@@ -105,6 +105,7 @@ export const getRouterData = app => {
       component: dynamicWrapper(app, ['site'], () => import('../routes/Site/StepForm/Step3')),
     },
     '/site/advanced-form': {
+      name: '高级表单',
       component: dynamicWrapper(app, ['site'], () => import('../routes/Site/AdvancedForm')),
     },
     '/match/index': {

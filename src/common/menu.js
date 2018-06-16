@@ -29,10 +29,12 @@ const menuData = [
     children: [
       {
         name: '基础表单',
+        authority: 'admin',
         path: 'basic-form',
       },
       {
         name: '分步表单',
+        authority: 'admin',
         path: 'step-form',
       },
       {
@@ -49,6 +51,7 @@ const menuData = [
     children: [
       {
         name: '赛事管理',
+        authority: 'admin',
         path: 'index',
       },
       // {
@@ -90,6 +93,7 @@ const menuData = [
     children: [
       {
         name: '器材管理',
+        authority: 'admin',
         path: 'index',
       },
       // {

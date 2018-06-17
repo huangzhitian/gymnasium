@@ -41,6 +41,7 @@ for (let i = 0; i < 7; i += 1) {
     total: 323234,
   });
 }
+ 
 
 const Yuan = ({ children }) => (
   <span
